@@ -8,5 +8,6 @@ public class GameOfLife {
         };
         Gra gra1 = new Gra();
         gra1.gameOfLife(board);
+        // chyba działa
     }
 }
