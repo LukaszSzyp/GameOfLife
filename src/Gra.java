@@ -3,8 +3,7 @@ public class Gra {
     public void gameOfLife(int[][] board) {
         int[][] newBord = new int[board.length][board[0].length];
         int iloscZywychNaKwadracie =0;
-        int pozX = 0;
-        int pozY = 0;
+
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
                 for (int k = -1; k <=1 ; k++) {
