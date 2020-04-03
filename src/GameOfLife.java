@@ -1,4 +1,5 @@
 public class GameOfLife {
+    //master
     public static void main(String[] arg) {
         int[][] board = {
                 {0, 1, 0},

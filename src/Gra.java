@@ -1,5 +1,5 @@
 public class Gra {
-// gra zycia
+// master
     public void gameOfLife(int[][] board) {
         int[][] newBord = new int[board.length][board[0].length];
         int iloscZywychNaKwadracie =0;
