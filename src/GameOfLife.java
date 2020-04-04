@@ -1,7 +1,5 @@
 public class GameOfLife {
-
-    //przenosze grę na inny branch
-
+ //klasa wywolujaca metode i pozwalajaca zaladowac startowa tablice
     public static void main(String[] arg) {
         int[][] board = {
                 {0, 1, 0},
@@ -11,6 +9,5 @@ public class GameOfLife {
         };
         Gra gra1 = new Gra();
         gra1.gameOfLife(board);
-        // działa
     }
 }
