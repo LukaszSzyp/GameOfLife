@@ -1,5 +1,8 @@
 public class Gra {
+
 // przenosze gre na inny branch
+
+
     public void gameOfLife(int[][] board) {
         int[][] newBord = new int[board.length][board[0].length];
         int iloscZywychNaKwadracie =0;
